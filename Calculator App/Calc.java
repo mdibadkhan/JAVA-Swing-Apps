@@ -1,5 +1,3 @@
-package mygui;
-
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,7 +6,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
-//import javax.swing.JTextField;
 
 
 public class Calc implements ActionListener{
@@ -16,7 +13,6 @@ public class Calc implements ActionListener{
 	
 	static JFrame frame;
 	static JPanel panel;
-	//static JTextField output;
 	static JButton b1;
 	static JButton b2;
 	static JButton b3;
