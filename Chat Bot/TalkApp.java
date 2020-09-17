@@ -208,7 +208,7 @@ class TalkApp implements ActionListener {
             }
 
             else if(chat.equalsIgnoreCase("who made you")){
-                showchat.setText("You : "+chat+"\nBot : I am made by Ibad who is learning JAVA.");
+                showchat.setText("You : "+chat+"\nBot : I am made by <Your Name> who is learning JAVA.");
                 i+=25;
                 showchat.setBounds(15, 20, 470, i);
             }
